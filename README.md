@@ -346,5 +346,6 @@ Response:
 * Hibernate (ORM)
 * GraphQL
 
+## Notes
 
-https://www.pluralsight.com/guides/building-a-graphql-server-with-spring-boot
+I based my application in the following Tutorial: https://www.pluralsight.com/guides/building-a-graphql-server-with-spring-boot
