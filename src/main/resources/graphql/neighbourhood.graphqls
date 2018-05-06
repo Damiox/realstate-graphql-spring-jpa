@@ -1,0 +1,14 @@
+type Neighbourhood {
+    id: ID!
+    name: String!
+    city: String!
+}
+
+type Query {
+    findAllNeighbourhoods: [Neighbourhood]!
+    countNeighbourhoods: Long!
+}
+
+type Mutation {
+    newNeighbourhood(name: String!, city: String!) : Neighbourhood!
+}

@@ -1,0 +1,19 @@
+type House {
+    id: ID!
+    beds: Int!
+    baths: Int!
+    squareFeet: Int
+    age: Int
+    neighbourhood: Neighbourhood!
+}
+
+extend type Query {
+    findAllHouses: [House]!
+    countHouses: Long!
+}
+
+extend type Mutation {
+    newHouse(beds: Int!, baths: Int!, squareFeet: Int, age: Int, neighbourhood: ID!) : House!
+    deleteHouse(id: ID!) : Boolean
+    updateHouseAge(id: ID!, age: Int!) : House!
+}

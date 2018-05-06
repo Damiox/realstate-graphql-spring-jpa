@@ -28,6 +28,10 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('javax.xml.bind:jaxb-api:2.3.0')
+    compile('com.graphql-java:graphql-spring-boot-starter:4.0.0')
+	compile('com.graphql-java:graphiql-spring-boot-starter:4.0.0')
+	compile('com.graphql-java:graphql-java-tools:5.0.0')
+	compile('com.graphql-java:graphql-java-servlet:5.0.0')
 	runtime('com.h2database:h2')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
